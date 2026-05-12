@@ -24,6 +24,7 @@ dependencies {
     compile "com.fasterxml.jackson.core:jackson-databind:${fasterxmlVersion}"
     testCompile "org.junit.jupiter:junit-jupiter-api:${junitJupiterVersion}"
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:${junitJupiterVersion}"
+    testImplementation "org.junit.jupiter:junit-jupiter-params:${junitJupiterVersion}"
     testCompile "javax.xml.bind:jaxb-api:${jaxbVersion}"
     testCompile "com.squareup:javapoet:${javapoetVersion}"
     testCompile "com.fasterxml.jackson.dataformat:jackson-dataformat-csv:${fasterxmlVersion}"
